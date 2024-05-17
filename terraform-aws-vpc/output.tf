@@ -7,6 +7,11 @@
   
 # }
 
-output "azs" {
-  value=data.aws_availability_zones.available.names
-}
+# output "azs" {
+#   value=data.aws_availability_zones.available.names
+# }
+
+# output "aws_subnet_info" {
+#   value=aws_subnet.public
+  
+# }

@@ -97,6 +97,27 @@ variable "database_subnet_cidrs" {
   
 }
 
+#NAT gateway tags:
+variable "nat_gateway_tags" {
+    type = map 
+    default = {}
+}
+
+variable "public_route_table_tags" {
+  type = map 
+  default = {}
+}
+
+variable "private_route_table_tags" {
+  type = map 
+  default = {}
+}
+
+variable "database_route_table_tags" {
+  type = map 
+  default = {}
+}
+
 
 
 
